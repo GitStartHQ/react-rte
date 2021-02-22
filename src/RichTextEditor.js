@@ -89,6 +89,8 @@ export default class RichTextEditor extends Component {
     this._focus();
   }
 
+  static forceSelection = EditorState.forceSelection
+
   render() {
     let {
       value,
